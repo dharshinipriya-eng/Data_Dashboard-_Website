@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #1e293b;
+}
+
+nav h1 {
+  color: #38bdf8;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #38bdf8;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(56, 189, 248, 0.4);
+}
+
+#charts {
+  padding: 40px;
+  text-align: center;
+}
+
+canvas {
+  margin: 20px;
+  max-width: 500px;
+  background: #1e293b;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.insight-card {
+  background: #1e293b;
+  padding: 20px;
+  margin: 20px auto;
+  width: 50%;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+.insight-card:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1e293b;
+}
